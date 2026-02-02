@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurslar - Boborahim Mashrab</title>
+    <!-- Styles & Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .pt-150 {
+            padding-top: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Reuse (Should technically be included) -->
+    <header class="site-header" id="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Boborahim Mashrab</span>
+            </a>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Bosh sahifa</a></li>
+                    <li><a href="courses.html" class="nav-link active" data-i18n="nav_courses">Kurslar</a></li>
+                    <li><a href="teachers.html" class="nav-link" data-i18n="nav_teachers">O‘qituvchilar</a></li>
+                    <li><a href="results.html" class="nav-link" data-i18n="nav_results">Natijalar</a></li>
+                    <li><a href="branches.html" class="nav-link" data-i18n="nav_branches">Filiallar</a></li>
+                    <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Bog‘lanish</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uz">UZ</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section pt-150">
+            <div class="container">
+                <h1 class="section-title">Barcha Kurslar</h1>
+                <div class="courses-grid">
+                    <!-- Course 1 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://placehold.co/400x250/0a2540/ffffff?text=Matematika" alt="Matematika"
+                                loading="lazy">
+                            <span class="course-price">300,000 UZS / oy</span>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Matematika</h3>
+                            <p class="course-desc">Abituriyentlar va maktab o‘quvchilari uchun chuqurlashtirilgan
+                                matematika.</p>
+                            <a href="contact.html" class="btn btn-primary small-btn">Ro‘yxatdan o‘tish</a>
+                        </div>
+                    </div>
+                    <!-- Course 2 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://placehold.co/400x250/0a2540/ffffff?text=Ingliz+Tili" alt="Ingliz Tili"
+                                loading="lazy">
+                            <span class="course-price">350,000 UZS / oy</span>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Ingliz Tili (IELTS)</h3>
+                            <p class="course-desc">Sifatli IELTS va CEFR tayyorlov kurslari.</p>
+                            <a href="contact.html" class="btn btn-primary small-btn">Ro‘yxatdan o‘tish</a>
+                        </div>
+                    </div>
+                    <!-- Course 3 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://placehold.co/400x250/0a2540/ffffff?text=Fizika" alt="Fizika"
+                                loading="lazy">
+                            <span class="course-price">300,000 UZS / oy</span>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Fizika</h3>
+                            <p class="course-desc">Nazariy va amaliy fizika.</p>
+                            <a href="contact.html" class="btn btn-primary small-btn">Ro‘yxatdan o‘tish</a>
+                        </div>
+                    </div>
+                    <!-- Course 4 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://placehold.co/400x250/0a2540/ffffff?text=Kimyo" alt="Kimyo" loading="lazy">
+                            <span class="course-price">300,000 UZS / oy</span>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Kimyo</h3>
+                            <p class="course-desc">Tibbiyot institutlariga kiruvchilar uchun maxsus kurs.</p>
+                            <a href="contact.html" class="btn btn-primary small-btn">Ro‘yxatdan o‘tish</a>
+                        </div>
+                    </div>
+                    <!-- Course 5 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://placehold.co/400x250/0a2540/ffffff?text=Biologiya" alt="Biologiya"
+                                loading="lazy">
+                            <span class="course-price">300,000 UZS / oy</span>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Biologiya</h3>
+                            <p class="course-desc">Biologiya fanidan chuqurlashtirilgan darslar.</p>
+                            <a href="contact.html" class="btn btn-primary small-btn">Ro‘yxatdan o‘tish</a>
+                        </div>
+                    </div>
+                    <!-- Course 6 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <img src="https://placehold.co/400x250/0a2540/ffffff?text=Tarix" alt="Tarix" loading="lazy">
+                            <span class="course-price">250,000 UZS / oy</span>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Tarix</h3>
+                            <p class="course-desc">O‘zbekiston va Jahon tarixi.</p>
+                            <a href="contact.html" class="btn btn-primary small-btn">Ro‘yxatdan o‘tish</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Boborahim Mashrab Learning Center.</p>
+        </div>
+    </footer>
+
+    <!-- Chat Widget is injected by script.js -->
+
+    <!-- Need Chat Window HTML here for JS to work if I don't import it dynamically. 
+         For simplicity I'll skip the full window markup here to save tokens, 
+         assuming user focuses on Home/Contact for chat. 
+         OR I should add it. Let's add it strictly.
+    -->
+    <div class="chat-window" id="chat-window" style="display: none;">
+        <!-- JS will struggle if elements don't exist. I should add them. -->
+        <div class="chat-header">
+            <h3>Bog‘lanish</h3><button class="close-chat">x</button>
+        </div>
+        <div class="chat-body" id="chat-body"></div>
+        <div class="chat-footer" id="chat-footer"></div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bog‘lanish - Boborahim Mashrab</title>
+    <meta name="description"
+        content="Boborahim Mashrab o‘quv markazi bilan bog‘lanish. Manzil, telefon raqamlar va xarita.">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://boborahimmashrab.uz/contact.html">
+    <meta property="og:title" content="Bog‘lanish - Boborahim Mashrab">
+    <meta property="og:description" content="Biz bilan bog‘laning va savollaringizga javob oling.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: var(--spacing-xl);
+            margin-top: var(--spacing-lg);
+        }
+
+        .contact-info-item {
+            margin-bottom: var(--spacing-md);
+            display: flex;
+            align-items: center;
+            gap: var(--spacing-sm);
+        }
+
+        .contact-icon {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: var(--spacing-md);
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: var(--spacing-xs);
+            font-weight: 500;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: var(--radius-sm);
+            font-family: var(--font-primary);
+        }
+
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="site-header" id="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Boborahim Mashrab</span>
+            </a>
+
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link" data-i18n="nav_home">Bosh sahifa</a></li>
+                    <li><a href="courses.html" class="nav-link" data-i18n="nav_courses">Kurslar</a></li>
+                    <li><a href="teachers.html" class="nav-link" data-i18n="nav_teachers">O‘qituvchilar</a></li>
+                    <li><a href="results.html" class="nav-link" data-i18n="nav_results">Natijalar</a></li>
+                    <li><a href="branches.html" class="nav-link" data-i18n="nav_branches">Filiallar</a></li>
+                    <li><a href="contact.html" class="nav-link active" data-i18n="nav_contact">Bog‘lanish</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uz">UZ</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section pt-150"> <!-- Added padding top for fixed header -->
+            <div class="container">
+                <h1 class="section-title" data-i18n="contact_title">Biz Bilan Bog‘lanish</h1>
+
+                <div class="contact-grid">
+                    <!-- Contact Info & Map -->
+                    <div class="contact-left">
+                        <div class="contact-info">
+                            <div class="contact-info-item">
+                                <span class="contact-icon">📍</span>
+                                <div>
+                                    <h4 data-i18n="address_title">Manzil</h4>
+                                    <p>Toshkent sh., Chilonzor tumani, Bunyodkor ko‘chasi, 15-uy.</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <span class="contact-icon">📞</span>
+                                <div>
+                                    <h4 data-i18n="phone_title">Telefon</h4>
+                                    <p>+998 71 200-00-00</p>
+                                </div>
+                            </div>
+                            <div class="contact-info-item">
+                                <span class="contact-icon">✉️</span>
+                                <div>
+                                    <h4 data-i18n="email_title">Email</h4>
+                                    <p>info@boborahimmashrab.uz</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="map-wrapper"
+                            style="margin-top: 30px; height: 300px; background: #eee; border-radius: var(--radius-md);">
+                            <!-- Placeholder Map -->
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.072979201582!2d69.2084!3d41.2825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b0cc379e9c3%3A0xa5a9323b4aa5cb98!2sToshkent!5e0!3m2!1sen!2s!4v1645512345678!5m2!1sen!2s"
+                                width="100%" height="100%" style="border:0; border-radius: var(--radius-md);"
+                                allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-right">
+                        <div class="card"
+                            style="padding: 30px; background: white; box-shadow: var(--shadow-sm); border-radius: var(--radius-md);">
+                            <h3 class="mb-4" data-i18n="form_title">Xabar Yuborish</h3>
+                            <form id="contact-form">
+                                <div class="form-group">
+                                    <label class="form-label" data-i18n="form_name">Ismingiz</label>
+                                    <input type="text" class="form-control" required placeholder="Ismingizni kiriting">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" data-i18n="form_phone">Telefon Raqamingiz</label>
+                                    <input type="tel" class="form-control" required placeholder="+998 90 123 45 67">
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" data-i18n="form_branch">Filial Tanlang</label>
+                                    <select class="form-control">
+                                        <option value="filial1">Filial 1 (Markaz)</option>
+                                        <option value="filial2">Filial 2 (Chilonzor)</option>
+                                        <option value="filial3">Filial 3 (Yunusobod)</option>
+                                        <option value="filial4">Filial 4 (Sergeli)</option>
+                                        <option value="filial5">Filial 5 (Ko‘kcha)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label class="form-label" data-i18n="form_message">Xabaringiz</label>
+                                    <textarea class="form-control" rows="5" required
+                                        placeholder="Savolingizni yozing..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary" style="width: 100%;"
+                                    data-i18n="form_submit">Yuborish</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2024 Boborahim Mashrab Learning Center.</p>
+        </div>
+    </footer>
+
+    <!-- Chat Widget is injected by script.js -->
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        // Simple form handling for contact page
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Xabaringiz muvaffaqiyatli yuborildi! Tez orada siz bilan bog‘lanamiz.');
+            this.reset();
+        });
+    </script>
+</body>
+
+</html>
