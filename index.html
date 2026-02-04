@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boborahim Mashrab - Zamonaviy O‘quv Markazi</title>
+    <title>Boborahim Mashrab</title>
     <meta name="description"
         content="Boborahim Mashrab o‘quv markazi – sifatli ta’lim, malakali o‘qituvchilar va yuqori natijalar. Biz bilan kelajagingizni quring!">
 
@@ -32,27 +32,30 @@
     <header class="site-header" id="main-header">
         <div class="container header-container">
             <a href="index.html" class="logo">
-                <span class="logo-text">Boborahim Mashrab</span>
+                <ul style="float: left;">
+                    <li style="float: left;"><img src="./assets/images/logo.png" style="width: 40px; height:40px;"></li>
+                    <li style="float: left;"><span class="logo-text" style="float: left;" >Boborahim Mashrab</span></li>
+                </ul>
             </a>
 
             <nav class="main-nav">
                 <ul class="nav-list">
                     <li><a href="index.html" class="nav-link active" data-i18n="nav_home">Bosh sahifa</a></li>
                     <li><a href="courses.html" class="nav-link" data-i18n="nav_courses">Kurslar</a></li>
-                    <li><a href="teachers.html" class="nav-link" data-i18n="nav_teachers">O‘qituvchilar</a></li>
+                    <li><a href="teachers.html" class="nav-link" data-i18n="nav_teachers">O'qituvchilar</a></li>
                     <li><a href="results.html" class="nav-link" data-i18n="nav_results">Natijalar</a></li>
-                    <li><a href="branches.html" class="nav-link" data-i18n="nav_branches">Filiallar</a></li>
-                    <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Bog‘lanish</a></li>
+                    <li><a href="branches.html" class="nav-link" data-i18n="nav_branches">Filiallar & Bog'lanish</a></li>
+                    <!-- <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Bog'lanish</a></li> -->
                 </ul>
             </nav>
 
             <div class="header-actions">
-                <div class="lang-switcher">
+                <!-- <div class="lang-switcher">
                     <button class="lang-btn active" data-lang="uz">UZ</button>
                     <button class="lang-btn" data-lang="ru">RU</button>
                     <button class="lang-btn" data-lang="en">EN</button>
-                </div>
-                <a href="#contact" class="btn btn-primary small-btn" data-i18n="btn_register">Ro‘yxatdan o‘tish</a>
+                </div> -->
+                <a href="#contact" class="btn btn-primary small-btn" data-i18n="btn_register">Ro'yxatdan o'tish</a>
                 <button class="mobile-menu-toggle" aria-label="Menu">
                     <span></span>
                     <span></span>
@@ -68,16 +71,17 @@
             <div class="container hero-container">
                 <div class="hero-content">
                     <h1 class="hero-title" data-i18n="hero_title">Kelajagingizni Biz Bilan Quring</h1>
-                    <p class="hero-subtitle" data-i18n="hero_subtitle">Sifatli ta’lim – muvaffaqiyat garovi. Bizning
-                        o‘quv markazimizda eng yaxshi ustozlardan ta’lim oling.</p>
+                    <p class="hero-subtitle" data-i18n="hero_subtitle">Sifatli ta'lim - muvaffaqiyat garovi. Bizning
+                        o'quv markazimizda eng yaxshi ustozlardan ta'lim oling.</p>
                     <div class="hero-buttons">
-                        <a href="#courses" class="btn btn-primary" data-i18n="btn_courses">Kurslarni ko‘rish</a>
-                        <a href="#contact" class="btn btn-outline" data-i18n="btn_contact">Bog‘lanish</a>
+                        <a href="courses.html" class="btn btn-primary" data-i18n="btn_courses">Kurslarni ko'rish</a>
+                        <a href="contact.html" class="btn btn-outline" data-i18n="btn_contact">Bog'lanish</a>
                     </div>
                 </div>
                 <div class="hero-image-wrapper">
                     <!-- Placeholder for Hero Image -->
-                    <div class="hero-image-placeholder"></div>
+                    <img src="./assets/images/main.png" alt="Hero Image" class="hero-image">
+                    <!-- <div class="hero-image-placeholder"></div> -->
                 </div>
             </div>
         </section>
@@ -124,7 +128,7 @@
                         <div class="course-content">
                             <h3 class="course-title">Fizika</h3>
                             <p class="course-desc">Nazariy va amaliy fizika. Masalalar yechish sirlari.</p>
-                            <a href="#contact" class="btn btn-primary small-btn">Ro‘yxatdan o‘tish</a>
+                            <a href="#contact" class="btn btn-primary small-btn">Ro'yxatdan o'tish</a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +176,7 @@
                                 loading="lazy">
                         </div>
                         <h3 class="teacher-name">Ali Valiyev</h3>
-                        <p class="teacher-subject">Matematika o‘qituvchisi</p>
+                        <p class="teacher-subject">Matematika o'qituvchisi</p>
                     </div>
                     <!-- Teacher 2 -->
                     <div class="teacher-card">
@@ -181,7 +185,7 @@
                                 loading="lazy">
                         </div>
                         <h3 class="teacher-name">Dilnoza Karimova</h3>
-                        <p class="teacher-subject">Ingliz tili o‘qituvchisi</p>
+                        <p class="teacher-subject">Ingliz tili o'qituvchisi</p>
                     </div>
                     <!-- Teacher 3 -->
                     <div class="teacher-card">
@@ -190,7 +194,7 @@
                                 loading="lazy">
                         </div>
                         <h3 class="teacher-name">Otabek Ismoilov</h3>
-                        <p class="teacher-subject">Fizika o‘qituvchisi</p>
+                        <p class="teacher-subject">Fizika o'qituvchisi</p>
                     </div>
                 </div>
             </div>
@@ -209,9 +213,9 @@
                         </div>
                         <div class="news-content">
                             <span class="news-date">02 Fevral, 2024</span>
-                            <h3 class="news-title">IELTS Master klass bo‘lib o‘tdi</h3>
-                            <p class="news-excerpt">O‘quv markazimizda IDP instruktori ishtirokida bepul IELTS master
-                                klass o‘tkazildi.</p>
+                            <h3 class="news-title">IELTS Master klass bo'lib o'tdi</h3>
+                            <p class="news-excerpt">O'quv markazimizda IDP instruktori ishtirokida bepul IELTS master
+                                klass o'tkazildi.</p>
                         </div>
                     </article>
                     <!-- News 2 -->
@@ -222,9 +226,9 @@
                         </div>
                         <div class="news-content">
                             <span class="news-date">25 Yanvar, 2024</span>
-                            <h3 class="news-title">Matematika olimpiadasi g‘oliblari</h3>
-                            <p class="news-excerpt">Ichki olimpiadada g‘olib bo‘lgan o‘quvchilarimiz qimmatbaho
-                                sovg‘alar bilan taqdirlandi.</p>
+                            <h3 class="news-title">Matematika olimpiadasi g'oliblari</h3>
+                            <p class="news-excerpt">Ichki olimpiadada g'olib bo'lgan o'quvchilarimiz qimmatbaho
+                                sovg'alar bilan taqdirlandi.</p>
                         </div>
                     </article>
                     <!-- News 3 -->
@@ -236,7 +240,7 @@
                         <div class="news-content">
                             <span class="news-date">20 Mart, 2024</span>
                             <h3 class="news-title">Navruz bayrami tantanasi</h3>
-                            <p class="news-excerpt">Navruz bayrami munosabati bilan o‘tkazilgan tadbirimizdan
+                            <p class="news-excerpt">Navruz bayrami munosabati bilan o'tkazilgan tadbirimizdan
                                 fotolavhalar.</p>
                         </div>
                     </article>
@@ -249,9 +253,9 @@
             <div class="container text-center">
                 <h2 class="mb-4">Savollaringiz bormi?</h2>
                 <p class="mb-5" style="max-width: 600px; margin: 0 auto 30px;">Bizning mutaxassislarimiz sizga barcha
-                    savollaringiz bo‘yicha yordam berishga tayyor. Hoziroq bog‘laning!</p>
-                <a href="#contact" class="btn btn-primary"
-                    style="background: white; color: var(--primary-color); border: none;">Admin bilan bog‘lanish</a>
+                    savollaringiz bo'icha yordam berishga tayyor. Hoziroq bog'laning!</p>
+                <a href="https://t.me/spcadmin" class="btn btn-primary"
+                    style="background: white; color: var(--primary-color); border: none;">Admin bilan bog'lanish</a>
             </div>
         </section>
 
@@ -259,7 +263,7 @@
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2024 Boborahim Mashrab Learning Center.</p>
+            <p>&copy; 2026 Boborahim Mashrab.</p>
         </div>
     </footer>
 

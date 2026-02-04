@@ -16,19 +16,36 @@
 <body>
     <header class="site-header" id="main-header">
         <div class="container header-container">
-            <a href="index.html" class="logo"><span class="logo-text">Boborahim Mashrab</span></a>
+            <a href="index.html" class="logo">
+                <ul style="float: left;">
+                    <li style="float: left;"><img src="./assets/images/logo.png" style="width: 40px; height:40px;"></li>
+                    <li style="float: left;"><span class="logo-text" style="float: left;" >Boborahim Mashrab</span></li>
+                </ul>
+            </a>
+
             <nav class="main-nav">
                 <ul class="nav-list">
-                    <li><a href="index.html" class="nav-link">Bosh sahifa</a></li>
-                    <li><a href="courses.html" class="nav-link">Kurslar</a></li>
-                    <li><a href="teachers.html" class="nav-link">O‘qituvchilar</a></li>
-                    <li><a href="results.html" class="nav-link">Natijalar</a></li>
-                    <li><a href="branches.html" class="nav-link active">Filiallar</a></li>
-                    <li><a href="contact.html" class="nav-link">Bog‘lanish</a></li>
+                    <li><a href="index.html" class="nav-link active" data-i18n="nav_home">Bosh sahifa</a></li>
+                    <li><a href="courses.html" class="nav-link" data-i18n="nav_courses">Kurslar</a></li>
+                    <li><a href="teachers.html" class="nav-link" data-i18n="nav_teachers">O'qituvchilar</a></li>
+                    <li><a href="results.html" class="nav-link" data-i18n="nav_results">Natijalar</a></li>
+                    <li><a href="branches.html" class="nav-link" data-i18n="nav_branches">Filiallar & Bog'lanish</a></li>
+                    <!-- <li><a href="contact.html" class="nav-link" data-i18n="nav_contact">Bog'lanish</a></li> -->
                 </ul>
             </nav>
+
             <div class="header-actions">
-                <button class="mobile-menu-toggle"><span></span><span></span><span></span></button>
+                <!-- <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="uz">UZ</button>
+                    <button class="lang-btn" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div> -->
+                <a href="#contact" class="btn btn-primary small-btn" data-i18n="btn_register">Ro'yxatdan o'tish</a>
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
             </div>
         </div>
     </header>
@@ -45,8 +62,8 @@
                                 style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                         <div class="course-content">
-                            <h3 class="course-title">Markaziy Filial</h3>
-                            <p class="course-desc">Toshkent sh., Chilonzor tumani, Bunyodkor 15.</p>
+                            <h3 class="course-title">4-kichik nohiya filiali</h3>
+                            <p class="course-desc">Manzil: Namangan shahar, 4-kichik nohiya, 15-A uy <br>Mo‘ljal: Alpomish fitnes klubi ro‘parasida</p>
                             <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
                         </div>
                     </div>
@@ -57,8 +74,8 @@
                             <div style="width:100%;height:100%;background:#eee;"></div>
                         </div>
                         <div class="course-content">
-                            <h3 class="course-title">Chilonzor Filiali</h3>
-                            <p class="course-desc">Toshkent sh., Chilonzor, 9-mavze.</p>
+                            <h3 class="course-title">Progress filiali</h3>
+                            <p class="course-desc">Manzil: Namangan shahar, S.Ayniy ko‘chasi 11-uy <br>Mo‘ljal: Do'stlik akademik litseyi ro'parasidagi ko‘cha</p>
                             <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
                         </div>
                     </div>
@@ -68,8 +85,129 @@
                             <div style="width:100%;height:100%;background:#eee;"></div>
                         </div>
                         <div class="course-content">
-                            <h3 class="course-title">Yunusobod Filiali</h3>
-                            <p class="course-desc">Toshkent sh., Yunusobod, 19-mavze.</p>
+                            <h3 class="course-title">Dunyo filiali</h3>
+                            <p class="course-desc">Manzil: Namangan shahar, I.Karimov ko‘chasi 2-a uy <br>Mo‘ljal: Do'stlik bozori ro'parasida</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 4 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Amir Temur (Russian) branch</h3>
+                            <p class="course-desc">Manzil: Namangan shahar, Amir Temur ko‘chasi <br>Mo‘ljal: 34-maktab yonida</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 5 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">BMC IELTS</h3>
+                            <p class="course-desc">Manzil: Namangan shahar, Boborahim Mashrab ko‘chasi <br>Mo‘ljal: 1-poliklinika orqasida</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 6 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Isfarxon filiali</h3>
+                            <p class="course-desc">Manzil: Namangan shahar, Marg'ilon ko'cha 7-uy <br>Mo‘ljal: Viloyat Soliq idorasi ro'parasida "SHARQ TABOBATI" binosi</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 7 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">To'raqo'rg'on filiali</h3>
+                            <p class="course-desc">Manzil: To'raqo'rg'on shahar <br>Mo‘ljal: Goʻzal maishiy xizmat koʻrsatish binosi</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 8 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Toshbuloq filiali</h3>
+                            <p class="course-desc">Manzil: Namangan tumani Toshbuloq shaharchasi <br>Mo‘ljal: Mikrokreditbank ro'parasi (katta chorraha yonida)</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 9 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Kosonsoy filiali</h3>
+                            <p class="course-desc">Manzil: Kosonsoy tumani, Kosonsoy shahri S.Sheroziy ko‘chasi <br>Mo‘ljal: 5-maktab va SAG gilamlar do'koni ro‘parasida</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 10 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Mingbuloq filiali</h3>
+                            <p class="course-desc">Manzil: Mingbuloq tumani Jamashuy shaharchasi <br>Mo‘ljal: SHERDOR majmuasi.</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 11 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Chust filiali</h3>
+                            <p class="course-desc">Manzil: Chust tuman, Chust shahri <br>Mo‘ljal: Kamolot to'yxonasi, Chust istirohat bog'i yonida</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 12 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">Yangiqo'rg'on filiali</h3>
+                            <p class="course-desc">Manzil: Yangiqo’rg’on  tumani Namangan ko’cha 3-uy <br>Mo’ljal: "MALIKA" savdo markazining 2-qavatida.</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 13 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">SPC KIDZ filiali</h3>
+                            <p class="course-desc">Manzil | Namangan shahar Davlatobod tumani, G'alaba ko’chasi 14-uy <br>Mo’ljal: "ALPOMISH" fitnes klubining 3-qavatida.</p>
+                            <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
+                        </div>
+                    </div>
+                    <!-- Branch 14 -->
+                    <div class="course-card">
+                        <div class="course-image">
+                            <div style="width:100%;height:100%;background:#eee;"></div>
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title">SPC Baliqchi filiali</h3>
+                            <p class="course-desc">Manzil: Andijon viloyati, Baliqchi tumani, Avesto ko‘chasi 48-uy <br>Mo’ljal: Baliqchi tongi binosi orqa tomonida</p>
                             <a href="contact.html" class="btn btn-outline small-btn">Bog‘lanish</a>
                         </div>
                     </div>
@@ -79,7 +217,7 @@
     </main>
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; 2024 Boborahim Mashrab Learning Center.</p>
+            <p>&copy; 2026 Boborahim Mashrab.</p>
         </div>
     </footer>
     <script src="assets/js/script.js"></script>
